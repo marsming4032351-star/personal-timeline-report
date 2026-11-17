@@ -1,0 +1,6 @@
+interface:
+  display_name: "个人活动时间线与日报周报"
+  short_description: "只读查询录音与转写，区分本人、对话和媒体，生成有证据的个人活动简报长图"
+  default_prompt: "使用 $personal-timeline-report 总结昨天的活动，按北京时间排序并生成脱敏长图和证据。"
+policy:
+  allow_implicit_invocation: true

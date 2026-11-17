@@ -1,0 +1,186 @@
+{
+  "project_id": "synthetic-demo",
+  "synthetic": true,
+  "timezone": "Asia/Shanghai",
+  "window": {
+    "start": "2026-01-15T00:00:00+08:00",
+    "end_exclusive": "2026-01-16T00:00:00+08:00"
+  },
+  "title": "一天的线索与想法",
+  "subtitle": "虚构数据演示 · 不代表任何人的真实经历",
+  "date_label": "2026.01.15  00:00—24:00\n北京时间 Asia/Shanghai · 虚构日期",
+  "badge": "演示",
+  "summary": "这份虚构报告演示如何整理读书会讨论、一个目录检索想法和播放的科普内容，并保留无转写与说话人未知的限制。",
+  "privacy_reviewed": true,
+  "retrieval": {
+    "status": "partial",
+    "queried_at": "未查询数据库（虚构示例）",
+    "scope": "只用于排版和测试；计数、活动、ID均虚构。",
+    "counts": {
+      "recordings": 4,
+      "transcripts": 12,
+      "auday_insights": 2,
+      "memories": 0
+    },
+    "read_counts": {
+      "transcripts": 3
+    },
+    "snapshot": "synthetic"
+  },
+  "metrics": [
+    {
+      "value": "4 段",
+      "label": "虚构录音"
+    },
+    {
+      "value": "12 条",
+      "label": "虚构转写"
+    },
+    {
+      "value": "20分钟",
+      "label": "虚构录音时长"
+    },
+    {
+      "value": "1 段",
+      "label": "虚构无转写缺口"
+    }
+  ],
+  "coverage_note": "所有数据均为虚构；没有连接 Supabase。\n数量仅用于演示卡片，不能用于评价真实活动。",
+  "events": [
+    {
+      "start": "2026-01-15T10:00:00+08:00",
+      "end": "2026-01-15T10:05:00+08:00",
+      "display_time": "10:00—10:05 · 虚构",
+      "title": "读书会的选书讨论",
+      "description": "示例中有人讨论下一次读书会的选书范围。能描述讨论内容，不能在缺少映射时认定是谁的决定。",
+      "category": "conversation",
+      "speaker": "unknown",
+      "confidence": "medium",
+      "status": "discussed",
+      "evidence_ids": [
+        "E01"
+      ]
+    },
+    {
+      "start": "2026-01-15T10:30:00+08:00",
+      "end": "2026-01-15T10:35:00+08:00",
+      "display_time": "10:30—10:35 · 虚构",
+      "title": "有录音，尚无转写",
+      "description": "示例中的这五分钟只有录音元数据；内容未知，不能用前后文填补。",
+      "category": "unknown",
+      "speaker": "unknown",
+      "confidence": "low",
+      "status": "unknown",
+      "evidence_ids": [
+        "E02"
+      ]
+    },
+    {
+      "start": "2026-01-15T13:00:00+08:00",
+      "end": "2026-01-15T13:05:00+08:00",
+      "display_time": "13:00—13:05 · 虚构",
+      "title": "提出图书目录检索想法",
+      "description": "一位虚构说话者提议为书目增加标签和检索入口；没有负责人、完成期限或已实现的证据。",
+      "category": "conversation",
+      "speaker": "unknown",
+      "confidence": "medium",
+      "status": "proposed",
+      "evidence_ids": [
+        "E03"
+      ]
+    },
+    {
+      "start": "2026-01-15T16:00:00+08:00",
+      "end": "2026-01-15T16:05:00+08:00",
+      "display_time": "16:00—16:05 · 虚构",
+      "title": "录到自然科普解说",
+      "description": "示例包含第一人称森林观察旁白，按疑似播放媒体处理，不代表录音者到了森林。",
+      "category": "media",
+      "speaker": "unknown",
+      "confidence": "medium",
+      "status": "discussed",
+      "evidence_ids": [
+        "E04"
+      ]
+    }
+  ],
+  "highlights": [
+    {
+      "title": "讨论有记录，个人归属待确认",
+      "description": "虚构片段展示多人对话与个人经历之间的边界；说话人未知时不写成用户已参加或决定。",
+      "evidence_ids": [
+        "E01"
+      ]
+    }
+  ],
+  "ideas": [
+    {
+      "title": "创意线索：让书目更容易检索",
+      "description": "这是虚构对话中出现的提议；可供后续澄清需求，不代表已确认实施或已经完成。",
+      "evidence_ids": [
+        "E03"
+      ]
+    },
+    {
+      "title": "决定状态：未形成明确承诺",
+      "description": "虚构片段只有建议，没有同意实施、负责人和日期；继续保留讨论状态，不扩大为已安排项目。",
+      "evidence_ids": [
+        "E03"
+      ]
+    }
+  ],
+  "todos": [
+    {
+      "title": "建议跟进：确认目录检索需求",
+      "description": "Agent建议，非用户承诺。负责人和期限未确认；可先询问需要哪些标签，再决定是否安排。",
+      "evidence_ids": [
+        "E03"
+      ]
+    }
+  ],
+  "limitations": [
+    "演示性质：全部活动、计数、日期与源ID均为虚构；没有执行真实数据库查询。",
+    "归属：说话人均未知，讨论、媒体旁白不直接认定为本人经历。",
+    "缺口：示例保留一段有录音无转写的时间，不凭上下文补写活动。",
+    "证据：下方ID只用于自动化测试；正式报告必须替换为用户授权读取的真实来源。",
+    "隐私：真实报告与转写应保留在本地，不要提交到公开仓库。"
+  ],
+  "evidence": [
+    {
+      "id": "E01",
+      "source_table": "transcripts",
+      "source_id": "00000000-0000-4000-8000-000000000001",
+      "recording_id": "00000000-0000-4000-8000-000000000101",
+      "start": "2026-01-15T10:00:00+08:00",
+      "end": "2026-01-15T10:05:00+08:00",
+      "paraphrase": "虚构：多人讨论读书会选书，个人身份未确认。"
+    },
+    {
+      "id": "E02",
+      "source_table": "recordings",
+      "source_id": "00000000-0000-4000-8000-000000000002",
+      "recording_id": "00000000-0000-4000-8000-000000000102",
+      "start": "2026-01-15T10:30:00+08:00",
+      "end": "2026-01-15T10:35:00+08:00",
+      "paraphrase": "虚构：示例录音没有转写，内容未知。"
+    },
+    {
+      "id": "E03",
+      "source_table": "transcripts",
+      "source_id": "00000000-0000-4000-8000-000000000003",
+      "recording_id": "00000000-0000-4000-8000-000000000103",
+      "start": "2026-01-15T13:00:00+08:00",
+      "end": "2026-01-15T13:05:00+08:00",
+      "paraphrase": "虚构：有人建议为图书目录增加标签检索，未确认实施。"
+    },
+    {
+      "id": "E04",
+      "source_table": "transcripts",
+      "source_id": "00000000-0000-4000-8000-000000000004",
+      "recording_id": "00000000-0000-4000-8000-000000000104",
+      "start": "2026-01-15T16:00:00+08:00",
+      "end": "2026-01-15T16:05:00+08:00",
+      "paraphrase": "虚构：出现森林科普旁白，不能证明录音者亲自到访。"
+    }
+  ]
+}
